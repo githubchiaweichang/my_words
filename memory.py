@@ -40,7 +40,7 @@ def get_all_my_words(data_path):
                             continue
                         if '#' not in row[0]:
                             continue
-                        my_words.append(row[0].strip('#').strip())
+                        my_words.append(row[0].strip('#').strip().strip('0').strip('-'))
     else:
         raise AssertionError("Should be a file!, but not implement")
 
