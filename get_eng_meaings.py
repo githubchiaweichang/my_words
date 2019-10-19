@@ -60,12 +60,14 @@ def get_file_line_count(filename):
 
 def main(old_filename, new_filename, filter_word):
     data_table = []
+    new_filename_index = 0
     with open(old_filename, newline='', encoding="utf-8") as csvfile:
         rows = csv.reader(csvfile)
         # rows = [['say']]
         with progressbar.ProgressBar(
             max_value=get_file_line_count(old_filename)
         ) as bar:
+
             for index, row in enumerate(rows):
                 bar.update(index)
                 time.sleep(0.0001)
@@ -73,6 +75,15 @@ def main(old_filename, new_filename, filter_word):
                 data = get_meanings(word.rsplit(filter_word)[0])
                 data = sorted(data, key=len)
                 data_table.append([word, data[-1] if data else "NotFoundAnyMeanings"])
+
+                if len(data_table) >= 1000:
+                    with open(new_filename + str(new_filename_index) + ".csv",
+                              'w', newline='', encoding="utf-8") as csvfile:
+                        csv.writer(csvfile).writerows(data_table)
+
+                    data_table = []
+                    new_filename_index = new_filename_index + 1
+                    print("save index = {}".format(new_filename_index))
 
     with open(new_filename, 'w', newline='', encoding="utf-8") as csvfile:
         csv.writer(csvfile).writerows(data_table)
