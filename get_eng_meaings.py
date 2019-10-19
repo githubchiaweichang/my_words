@@ -91,7 +91,9 @@ def main(old_filename, new_filename, filter_word):
 
 if __name__ == '__main__':
     main(
-        old_filename="gre_words.CSV",
-        new_filename="output.csv",
+        old_filename="gre_words.csv",
+        new_filename="new.csv",
         filter_word="--0"
     )
+# bug
+# if  csv file have empty line
