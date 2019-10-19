@@ -7,6 +7,9 @@ import time
 import progressbar
 
 import os
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+import time
 
 
 my_words_path = "my_words/"
@@ -37,7 +40,7 @@ def get_all_my_words(data_path):
                             continue
                         if '#' not in row[0]:
                             continue
-                        my_words.append(row[0].strip('#'))
+                        my_words.append(row[0].strip('#').strip())
     else:
         raise AssertionError("Should be a file!, but not implement")
 
@@ -56,7 +59,9 @@ from datetime import datetime
 def log_to_file_if_update(filename, task_num, total_word_nums):
     with open(filename, 'r', newline='', encoding="utf-8") as csvfile:
         lines = [row for row in csv.reader(csvfile)]
+        print(lines)
         last_task_num = int(lines[-1][1])
+        print(task_num, last_task_num)
 
     if task_num != last_task_num:
         now_time = datetime.now().isoformat(timespec='seconds')
@@ -77,32 +82,24 @@ def plot_data(filename):
             x.append(row[0])
             y.append(int(row[1]))
             z.append(int(row[2]))
-        # x = np.linspace(0, 10, 1000)
-        # y = np.sin(x)
-        # z = np.cos(x**2)
-        plt.figure(figsize=(8, 4))
+        plt.cla()
         plt.plot(x, y, label="my")
-        plt.plot(x, z, label="total")
-        # plt.xlabel("Time(s)")
-        # plt.ylabel("Volt")
-        # plt.title("PyPlot First Example")
-        # plt.ylim(-1.2, 1.2)
-        plt.legend()
-        plt.show()
+        plt.pause(0.1)
 
 
 def main():
-    total_word_nums = get_file_line_count(database_path)
+    while True:
+        total_word_nums = get_file_line_count(database_path)
+        database = get_all_unmemorized_words(database_path)
+        my_words = list(set(get_all_my_words(my_words_path)))
 
-    database = get_all_unmemorized_words(database_path)
-    my_words = list(set(get_all_my_words(my_words_path)))
-
-    task_num = 0
-    for my_word in my_words:
-        if my_word in database:
-            task_num = task_num + 1
-    log_to_file_if_update('data.log', task_num, total_word_nums)
-    plot_data('data.log')
+        task_num = 0
+        for my_word in my_words:
+            if my_word in database:
+                task_num = task_num + 1
+        log_to_file_if_update('data.log', task_num, total_word_nums)
+        plot_data('data.log')
+        # time.sleep(1)
 
 
 if __name__ == '__main__':
