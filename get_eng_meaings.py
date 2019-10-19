@@ -1,13 +1,10 @@
 # coding: utf-8
+
 import requests
-
-import ast
-import json
 import re
-
-import string
-
 import csv
+import time
+import progressbar
 
 
 def remain_chinese(data):
@@ -16,17 +13,16 @@ def remain_chinese(data):
     return data
 
 
-def replace_punctuation(data):
+def replace_punctuation_with_delimiter(data, delimiter):
     # translator = str.maketrans('', '', string.punctuation)
-    punctuation_list = ['\\', '.', '，', ')', '(', '；', ';', '、', ',']
+    punctuation_list = ['"', '\\', '\n', '.', '，', ')',
+                        '(', '；', ';', '、', ' ']
     for punctuation in punctuation_list:
-        data = data.replace(punctuation, ' ').strip()
+        data = data.replace(punctuation, delimiter).strip()
 
-    data = data.strip()
-    data = ",".join(data.split())
-
-    # data = data.translate(translator).strip()
-    return data
+    data = data.split(",")
+    data = list(filter(None, data))
+    return delimiter.join(data)
 
 
 def get_word_url(word):
@@ -38,55 +34,53 @@ def get_word_url(word):
         'localTermId=-1',
         'wordLang=en',
     ]
-
-    url = url + "&".join(param_list)
-
-    return url
+    return url + "&".join(param_list)
 
 
 def get_meanings(word):
     url = get_word_url(word)
-    r = requests.get(url)
-    r.encoding = "unicode_escape"
+    suggestions = requests.get(url).json()
+    suggestions = suggestions['responses'][0]['data']['suggestions']['suggestions']
 
-    meanings_text = r.text
-    meanings_text = meanings_text.replace('""', '"')
-
-    # # print(meanings_text)
-
-    text_list = json.loads(replace_punctuation(meanings_text), strict=False)['responses'][0]['data']['suggestions']['suggestions']
-    dst_list = []
-    for word in text_list:
-        dst_list.append(remain_chinese(word['text']))
-    return dst_list
+    meaning_list = []
+    for suggestion in suggestions:
+        meanings = suggestion['text']
+        meanings = replace_punctuation_with_delimiter(meanings, ',')
+        meanings = [remain_chinese(m) for m in meanings.split(',')]
+        meanings = list(filter(None, meanings))
+        meaning_list.append(','.join(meanings))
+    return meaning_list
 
 
-filename = "gre_words.CSV"
-filter_word = "--0"
-
-data_table = []
-import time
-import progressbar
-
-with open(filename, encoding="utf-8") as f:
-    file_line_count = sum(1 for _ in f)
+def get_file_line_count(filename):
+    with open(filename, encoding="utf-8") as f:
+        file_line_count = sum(1 for _ in f)
+    return file_line_count
 
 
-with open(filename, newline='', encoding="utf-8") as csvfile:
-    rows = csv.reader(csvfile)
-    # rows = [['bed'], ['dog']]
-    with progressbar.ProgressBar(max_value=file_line_count) as bar:
-        for index, row in enumerate(rows):
-            # # print(row)
-            bar.update(index)
-            time.sleep(0.0001)
-            word = row[0].rsplit(filter_word)[0]
-            # print(word)
-            data = get_meanings(word)
-            data_table.append([word, data[0] if data else "NotFoundAnyMeanings"])
+def main(old_filename, new_filename, filter_word):
+    data_table = []
+    with open(old_filename, newline='', encoding="utf-8") as csvfile:
+        rows = csv.reader(csvfile)
+        # rows = [['say']]
+        with progressbar.ProgressBar(
+            max_value=get_file_line_count(old_filename)
+        ) as bar:
+            for index, row in enumerate(rows):
+                bar.update(index)
+                time.sleep(0.0001)
+                word = row[0]
+                data = get_meanings(word.rsplit(filter_word)[0])
+                data = sorted(data, key=len)
+                data_table.append([word, data[-1] if data else "NotFoundAnyMeanings"])
 
-print(data_table)
+    with open(new_filename, 'w', newline='', encoding="utf-8") as csvfile:
+        csv.writer(csvfile).writerows(data_table)
 
-with open('output.csv', 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerows(data_table)
+
+if __name__ == '__main__':
+    main(
+        old_filename="gre_words.CSV",
+        new_filename="output.csv",
+        filter_word="--0"
+    )
