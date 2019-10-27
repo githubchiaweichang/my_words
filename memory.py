@@ -59,9 +59,9 @@ from datetime import datetime
 def log_to_file_if_update(filename, task_num, total_word_nums):
     with open(filename, 'r', newline='', encoding="utf-8") as csvfile:
         lines = [row for row in csv.reader(csvfile)]
-        print(lines)
+        # print(lines)
         last_task_num = int(lines[-1][1])
-        print(task_num, last_task_num)
+        # print(task_num, last_task_num)
 
     if task_num != last_task_num:
         now_time = datetime.now().isoformat(timespec='seconds')
@@ -71,21 +71,19 @@ def log_to_file_if_update(filename, task_num, total_word_nums):
 
 # import numpy as np
 import matplotlib.pyplot as plt
-
-
 def plot_data(filename):
     with open(filename, 'r', newline='', encoding="utf-8") as csvfile:
         x = []
         y = []
         z = []
+
         for row in csv.reader(csvfile):
             x.append(row[0])
             y.append(int(row[1]))
             z.append(int(row[2]))
-        # plt.gcf()
-        # plt.subplots(figsize=(2, 2), dpi=100)
+
+        print(row[0], row[1])
         plt.figure(1, figsize=(2, 2))
-        # plt.gcf()
         plt.cla()
         plt.plot(x, y, label="my")
         plt.pause(0.1)
