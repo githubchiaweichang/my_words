@@ -46,3 +46,7 @@ clog,木屐,堵塞
 clout,猛擊,影響力
 clod,土塊,笨蛋
 clump,叢,堆
+
+glamour,   魔力，魅力 vt. 迷惑，迷住
+gramarye,   妖法，魔术
+grammar,語法,基本原理
