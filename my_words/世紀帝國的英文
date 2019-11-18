@@ -1,0 +1,208 @@
+建築
+經濟
+E居住房舍House
+I磨坊Mill
+F農田Farm
+Z伐木廠Lumber Camp
+G採礦營地Mining Camp
+D碼頭Dock
+S兵工廠Blacksmith
+M市集Market
+R漁網Fish Trap
+Y修道院Monastery
+U學院University
+N市鎮中心Town Center
+O世界奇觀Wonder
+軍事
+B軍營Barracks
+A射箭場Archery Range
+L馬廄Stable
+K攻城器製造所Siege Workshop
+V城堡Castle
+防禦
+Q哨站Outpost
+P木牆Palisade Wall
+T瞭望台Watch Tower
+T防禦箭塔Guard Tower
+T大型箭塔Keep
+/城門Gate
+W石牆Stone Wall
+W垛牆Fortified Wall
+J火砲塔Bombard Tower
+======================
+單位
+步兵
+S民兵Militia
+S裝甲步兵Man-at-Arms
+S長劍兵Long Swordsman
+S雙手劍兵Two-handed Swordsman
+S劍兵勇士Champion
+E長槍兵Spearman
+E重裝長槍兵Pikeman
+E戟兵Halberdier
+G鷹勇士Eagle Warrior
+T擲斧兵Throwing Axeman
+T菘藍武士Woad Raider
+T狂戰士Berserk
+T日本武士Samurai
+T豹勇士Jaguar Warrior
+T哥德衛隊Huskarl
+T條頓武士Teutonic Knight
+遠距兵
+A弓兵Archer
+A弩兵Crossbowman
+A強弩兵Arbalest
+T連弩兵Chu Ko Nu
+T長弓兵Longbowman
+T羽箭手Plumed Archer
+C馬騎弓兵Cavalry Archer
+T突騎Mangudai
+T馬戰車War Wagon
+R矛兵Skirmisher
+E火槍兵Hand Cannoneer
+T土耳其火槍兵Janissary
+T征服者Conquistador
+騎兵
+T斥候騎兵Scout Cavalry
+T輕騎兵Light Cavalry
+T匈牙利輕騎兵Hussar
+N騎士Knight
+N騎兵Cavalier
+N遊俠Paladin
+T鐵騎Tarkan
+T聖騎兵Cataphract
+C駱駝騎兵Camel
+T奴隸兵Mameluke
+T戰象War Elephant
+攻城器
+N弩砲Scorpion
+A輕型投石車Mangonel
+A中型投石車Onager
+A重型投石車Siege Onager
+R巨型投石機Trebuchet
+C火砲Bombard Cannon
+R輕型衝車Battering Ram
+R裝甲衝車Capped Ram
+R重型衝車Siege Ram
+P炸藥桶Petard
+船艦
+F漁船Fishing Boat
+T商船Trade Cog
+P運輸船Transport Ship
+A戰船Galley
+A弩砲戰船War Galley
+A重型弩砲戰船Galleon
+G維京船Longboat
+S龜船Turtle Ship
+C砲船Cannon Galleon
+R火船Fire Ship
+D神風船Demolition Ship
+其他
+C村民Villager
+T僧侶Monk
+S傳教士Missionary
+T商隊Trade Cart
+狂猴Furious the monkey boy
+馬Horse
+馬勇士Genitour
+國王King
+======================
+科技
+建築
+城鎮瞭望Town Watch
+城鎮巡邏Town Patrol
+磚瓦學Masonry
+建築學Architecture
+磨坊水車Treadmill Crane
+草藥Herbal Medicine
+圍籬Hoardings
+經濟
+獨輪車Wheelbarrow
+手推車Hand Cart
+獸耕Horse Collar
+重犁Heavy Plow
+輪耕Crop Rotation
+雙面斧Double-Bit Axe
+弓型鋸Bow Saw
+雙人鋸Two-Man Saw
+開採金礦Gold Mining
+採金豎井Gold Shaft Mining
+開採石礦Stone Mining
+採石豎井Stone Shaft Mining
+貿易
+製圖Cartography
+商隊Caravan
+貨幣Coinage
+銀行Banking
+工會Guilds
+手執兵
+追蹤Tracking
+護衛Squires
+品種Bloodlines
+畜牧Husbandry
+步兵鱗甲Scale Mail Armor
+步兵鏈甲Chain Mail Armor
+步兵板甲Plate Mail Armor
+騎兵鱗甲Scale Barding Armor
+騎兵鏈甲Chain Barding Armor
+騎兵板甲Plate Barding Armor
+鍛造Forging
+鑄鐵Iron Casting
+高爐Blast Furnace
+遠距兵與攻城器
+拇指環Thumb Ring
+彈道學Ballistics
+安息人戰術Parthian Tactics
+弓兵護甲Padded Archer Armor
+弓兵皮甲Leather Archer Armor
+弓兵鏈甲Ring Archer Armor
+箭羽Fletching
+箭簇Bodkin Arrow
+護腕Bracer
+火箭Heated Shop
+城垛射孔Murder Holes
+化學Chemistry
+攻城工程師Siege Engineers
+船艦
+傾側Careening
+船塢Dry Dock
+造船員Shipwright
+僧侶
+神聖思想Sanctity
+宗教狂熱Fervor
+贖罪思想Atonement
+救贖思想Redemption
+異端邪說Heresy
+啟示思想Illumination
+印刷技術Block Printing
+神權政治Theocracy
+忠誠信仰Faith
+其他
+升級至封建時代upgrade to Feudal Age
+升級至城堡時代upgrade to Castle Age
+升級至帝王時代upgrade to Imperial Age
+織布Loom
+工兵Sappers
+徵兵Conscription
+間諜Spies
+叛徒Treason
+特殊
+自由民Yeomen
+塞爾特狂熱Furor Celtic
+倒鉤斧Bearded Axe
+霸權Supremacy
+無政府狀態Anarchy
+軍事紀律Perfusion
+無神論Atheism
+狂戰士幫Berserker Gang
+炮門垛口Crenellation
+象夫Mahouts
+後勤Logistica
+狂熱Zealotry
+砲術Artillery
+火箭技術Rocketry
+彈射器Kataparuto
+神機箭Singijeon
+鑿岩機Drill
+黃金國El Dorado
+榮冠戰爭Garland Wars

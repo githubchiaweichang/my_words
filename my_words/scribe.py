@@ -1,31 +1,42 @@
-|scribe|script|scriptive|scripture|
-|--------------|--------------|--------------|-----------|
-|ascribe||||
-||conscript|||
-|circumscribe||||
-|describe||descriptive||
-|inscribe||||
-|prescribe|prescription|||
-|proscribe|proscription|proscriptive||
-|transcribe||||
-||manuscript|||
+# scribe, 寫，記，劃 n. 抄寫員，作家，劃線
+# script, 腳本
+# scripture, 聖經
 
-#ascribe--0,把,歸因,於,把,歸屬,於
-#circumscribe,在,周圍畫線,限制,環繞寫限制
-#circumscribed,約束,制約,限制
-#conscript,徵募
-#describe,描繪,描寫,描述,刻劃
-#descriptive,形容詞,描寫的,描述性的
-#inscribe,登記,銘記於,題寫,雕刻
-#manuscript--0,手寫的,原稿的,記法,手,寫
-#nondescript--0,無明顯特徵的,難以歸類的,難以形容的,難以形容或歸類的人或物
-#prescribe,規定,命令,指示,囑咐,開處方
-#prescribed,規定的,法定的,處方的
-#prescription,處方,藥方,指示,命令,規定,時效,根據時效取得的權利
-proscribe--0,禁止,剝奪,的公權,放逐
-proscription--0,剝奪公權,放逐,禁止,排斥
-proscriptive--0,限制的,禁止的,規定的,律因時效而獲得的
-#scribe轉錄
-#script,動詞,把,改編為劇本,名詞,筆跡,戲劇,廣播等的,腳本
-#scripture,聖經,聖經的一節,聖經的一句,手稿
-#transcribe,抄寫,譯寫,意譯,錄制,改編,遺傳轉錄
+# a = ad ，去+ scribe 寫、刻
+# ascribe - -0, 把, 歸因
+
+# circum-, 圈，周圍， -scribe, 寫，劃
+circumscribe, 限制
+circumscribed, 約束, 制約, 限制
+
+# con-, 強調。 -script, 寫
+conscript, 徵募
+
+# de-, 向下。 -scribe, 寫
+# describe, 描繪, 描寫, 描述, 刻劃
+# descriptive, 形容詞, 描寫的, 描述性的
+# nondescript - -0, 無明顯特徵的
+
+# in-, 進入，使， -scribe, 寫
+# inscribe, 登記, 銘記於, 題寫, 雕刻
+
+# manu-, 手， -script, 寫
+# manuscript - -0, 手寫的, 原稿的, 記法, 手, 寫
+
+# pre- 前 + -scrib- 寫
+# prescribe, 規定, 命令, 指示, 囑咐, 開處方
+# prescribed, 規定的, 法定的, 處方的
+# prescription, 處方, 藥方
+
+# pro-, 在前，提前， -scribe, 寫 禁止
+# 說在前面的醜話
+# 前綴 pro- 表示“ before, in front of ”，
+proscribe - -0, 禁止, 剝奪, 的公權, 放逐
+proscription - -0, 剝奪公權, 放逐, 禁止
+proscriptive - -0, 限制的, 禁止的, 規定的
+
+# sub - 下 + -scrib - 寫 + -e 動詞詞尾
+# subscribe, 簽名, 捐助, 贊助
+
+#  trans- 轉變 , 轉換 + -scrib
+# transcribe, 抄寫
