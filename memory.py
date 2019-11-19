@@ -34,8 +34,10 @@ def get_all_my_words(data_path):
             # print(dirPath)
             for f in filenames:
                 filename = os.path.join(dirPath, f)
+                print(filename)
                 with open(filename, newline='', encoding="utf-8") as csvfile:
                     for row in csv.reader(csvfile):
+                        print(row)
                         if len(row) == 0:
                             continue
                         if '#' not in row[0]:
@@ -71,6 +73,8 @@ def log_to_file_if_update(filename, task_num, total_word_nums):
 
 # import numpy as np
 import matplotlib.pyplot as plt
+
+
 def plot_data(filename):
     with open(filename, 'r', newline='', encoding="utf-8") as csvfile:
         x = []

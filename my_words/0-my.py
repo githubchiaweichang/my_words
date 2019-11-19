@@ -1104,7 +1104,7 @@ flippant - -0, 輕率的, 輕浮的, 飛, 掛在外面的褲子飛起來
 fresh, 冒失的, 新的, 新近的, 新鮮的, 淡的, 清新的, 涼爽的, 鮮艷的, 精神飽滿的
 freshness, 新鮮度, 精力恢復, 茶點
 refresh, 刷新, 使清新, 使恢復, 使生氣蓬勃, 提起精神, 恢復精神, 吃點心, 喝飲料
-refreshment, 点心，零售
+refreshment, 點心，零售
 
 forethought, 事先的考慮, 深謀遠慮
 thoughtlessly, 輕率地, 不體貼地
@@ -1386,17 +1386,17 @@ await, 等待
 # normal,標準,正常,正常的,正規的,標準的標準,普通,常態
 normative - -0, 建立基準的, 標準的, 規範的
 
-# 前缀 ab-, 离开，非。 normal, 正常。
+# 前綴 ab-, 離開，非。 normal, 正常。
 # abnormal,不正常,反常,變態的
 # abnormally,同義字詞,反常地,異常地
 
-# e- 出 , 向外 + -norm- 正规 , 常规 + -ity 名词词尾 → 超出常规的
+# e- 出 , 向外 + -norm- 正規 , 常規 + -ity 名詞詞尾 → 超出常規的
 enormity - -0, 殘暴, 滔天大罪, 暴行, 巨大
-enormous, 庞大的，巨大的
+enormous, 龐大的，巨大的
 
 # number, 號碼, 數, 數字
 numerous - -0, 很多的, 數目眾多的, 多數的
 enumerate, 列舉
-# 来自拉丁语 numisma, 钱币，货币，来自希腊语 numos, 习惯，惯例，法则
-numismatics, 钱币学
+# 來自拉丁語 numisma, 錢幣，貨幣，來自希臘語 numos, 習慣，慣例，法則
+numismatics, 錢幣學
 numismatist, 錢幣收藏家
