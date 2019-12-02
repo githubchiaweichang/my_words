@@ -1,7 +1,7 @@
-#cert-決定
+#cert決定
 #certification,記,証明,保証,証明,合格証明書,例,質量合格証,類,教師需要証書教書司機需要駕照駕駛,証明
 
-#con-,強調。-cert,唱
+#con,強調,cert,唱
 #concert,音樂會,協奏曲
 #concerted,共同計劃完成的,齊心協力
 #concerto,協奏曲

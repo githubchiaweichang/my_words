@@ -8,7 +8,7 @@ notify,通報,通知
 notion,觀念,見解
 notation,(表示數量等的)記號,符號
 
-#an(=ad,去)+not(註解、筆記)+ate
+#an(=ad,去)not(註解,筆記)ate
 annotate--0,註解
 
 #來自拉丁語notus,知道的

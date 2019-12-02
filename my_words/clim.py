@@ -7,7 +7,7 @@ climate,(氣候),希臘人設想的地球上的平行斜坡
 
 
 limbo(靈薄獄),天堂和地獄之間的區域,迷失域
-#由-clin-(傾,斜)省掉c而成-lin-→lean
+#由clin(傾,斜)省掉c而成lin→lean
 lean,傾斜,依靠
 limousine,豪華轎車),發明豪華馬車的法國利摩日人
 

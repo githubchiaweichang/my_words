@@ -1,7 +1,7 @@
 #来自词根cand,照明
 #candle,蜡烛
 
-#in-,进入,使,-cend,火
+#in,进入,使,cend,火
 #incense--0,香,香氣,奉承,焚香,用香焚,使發怒,被激怒的
 incendiary,放火的,縱火的,導致著火的
 

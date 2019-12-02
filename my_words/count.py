@@ -1,5 +1,5 @@
 
-#ac-加强意义+-count-计算
+#ac加强意义count计算
 account--0,帳目,報告,估計,原因,利潤,算賬,記錄,解釋,認為,佔,解決,得分
 accountability,有責任,有義務,賬,賬目,存款,記述,報告,理由,解釋,導致,報賬,認爲,把,視作
 accounting,會計,會計學,帳單,解釋的形式,敘述
@@ -22,8 +22,8 @@ counterpoint,對立點
 
 country,國家,鄉村
 
-#dis-,不,非,使相反。count,数
+#dis,不,非,使相反,count,数
 discount,折扣
 
-#en-,进入,使。前缀countra-,相对
+#en,进入,使,前缀countra,相对
 encounter,遭遇

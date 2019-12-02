@@ -3,7 +3,7 @@
 #因爲,雖然都是希臘詞源,
 #但mechanic是英語經由拉丁語借自希臘語,
 #ch的讀音保留了/k/音,
-#但machine經由法語,ch音齶音化爲/ʃ/。
+#但machine經由法語,ch音齶音化爲/ʃ/,
 machination,陰謀,圖謀,策劃
 machine,機器
 

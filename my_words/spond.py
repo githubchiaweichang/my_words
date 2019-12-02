@@ -4,7 +4,7 @@
 #來自希臘語sponde,
 #祭奠,祭酒,獻祭,履行儀式,承諾,
 
-#cor-,強調。respond,答覆,對應。
+#cor,強調,respond,答覆,對應,
 correspond,對應,相當於,相一致
 correspondent,記者,通訊員
 

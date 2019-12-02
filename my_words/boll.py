@@ -1,8 +1,8 @@
-#meta-,改变,-bol,扔,投
+#meta,改变,bol,扔,投
 metabolism,新陳代謝
 metabolize,新陳代謝
 
-#hyper-,超过的,向上的,-boll,扔
+#hyper,超过的,向上的,boll,扔
 hyperbole--0,誇大的言論,誇示法
 hyperbolized,誇大的
 

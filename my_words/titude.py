@@ -1,12 +1,12 @@
-#titude相當於程度的度、性质/状态
+#titude相當於程度的度,性质/状态
 
-#-apt適合
+#apt適合
 #apt,恰當的,適宜的,有…傾向的
 #attitude,態度,姿態,aptitude的變體
 #aptitude,天性,天賦
 #ineptitude--0,無能
 
-#-cert-確信
+#cert確信
 #certitude--0,確定性
 
 #来自拉丁语latus,宽的
@@ -26,8 +26,8 @@ perch--0,v棲息,n河鱸
 pulchritude,美丽,标致
 
 
-#-sol-单独+-i-+-tude情况,状态,性质
-solitude,名詞,孤獨,隱居
+#sol单独itude情况,状态,性质
+solitude,,孤獨,隱居
 
 #very,similar,
 #verisimilitude--0,真實性

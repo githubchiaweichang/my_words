@@ -1,4 +1,4 @@
-#-simil-相似
+#simil相似
 #similar,看起來相像的
 #similarly,相似地
 
@@ -6,16 +6,16 @@
 simile,明喻,使用到如或等字
 metaphor,暗喻,隱喻
 
-#as=ad,去+simil相似
+#as=ad,去simil相似
 assimilate--0,使同化,吸收
 
-#dis-,不,非,使相反。similar,一致的。
+#dis,不,非,使相反,similar,一致的,
 #dissimilar,不同的,不相似的
 
 #其中的fac來自facere=tomake,製造,使成爲
 #facsimile,傳真
 
-#-ver-真實+-i-+-simil-相似
+#ver真實isimil相似
 #verisimilar,好像是真的
 
 #simple,簡單的
@@ -25,5 +25,5 @@ assimilate--0,使同化,吸收
 #simply,簡單地,只不過
 #oversimplified,過於簡化
 
-#-simil-相似+-i-+-tude名詞詞尾
+#simil相似itude名詞詞尾
 similitude,相似性

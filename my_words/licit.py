@@ -1,5 +1,5 @@
 #来自拉丁语licere,合法的,许可的
-#lic被允许+-ence名词词尾
+#lic被允许ence名词词尾
 #licence,执照,许可证
 #license,批准,许可
 
@@ -21,7 +21,7 @@ infelicity--0,不合適,
 
 illicit,非法的
 
-#de-,向下,强调。-lic,抓住,诱惑
+#de,向下,强调,lic,抓住,诱惑
 #delicious,美味的
 delicacy,精巧雅緻,美味佳餚
 delicate,精巧的,脆弱的

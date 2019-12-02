@@ -2,13 +2,13 @@
 mutate,變異,突變
 mutation,變化,轉變
 
-#com-,強調。-mut,改變,交換
+#com,強調,mut,改變,交換
 #commute,通勤往返,代償
 
-#im-,不,非,mutable,可改變的。
+#im,不,非,mutable,可改變的,
 #immutable--0,永恆的,不可改變的
 
-#trans-,轉移,轉變,-mut,改變
+#trans,轉移,轉變,mut,改變
 transmute--0,使變形,使變質,變形
 
 #來自阿拉伯語muttus,交換的

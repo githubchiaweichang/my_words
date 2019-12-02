@@ -33,9 +33,9 @@ J火砲塔BombardTower
 單位
 步兵
 S民兵Militia
-S裝甲步兵Man - at - Arms
+S裝甲步兵Man  at  Arms
 S長劍兵LongSwordsman
-S雙手劍兵Two - handedSwordsman
+S雙手劍兵Two  handedSwordsman
 S劍兵勇士Champion
 E長槍兵Spearman
 E重裝長槍兵Pikeman
@@ -122,9 +122,9 @@ T商隊TradeCart
 獸耕HorseCollar
 重犁HeavyPlow
 輪耕CropRotation
-雙面斧Double - BitAxe
+雙面斧Double  BitAxe
 弓型鋸BowSaw
-雙人鋸Two - ManSaw
+雙人鋸Two  ManSaw
 開採金礦GoldMining
 採金豎井GoldShaftMining
 開採石礦StoneMining

@@ -1,10 +1,10 @@
-#cept-拿
-#-ceive,词源同cap,抓住,理解
+#cept拿
+#ceive,词源同cap,抓住,理解
 
 accept,接受
 acceptability,可接受
 acceptable,可以接受的,令人滿意的
-acceptance,名詞,接受,領受,票據等的,承兌,認付
+acceptance,,接受,領受,票據等的,承兌,認付
 accepted,一般承認的,公認的
 accepting,接受
 
@@ -31,7 +31,7 @@ imperceptible,无法感知的
 imperceptibly,感觉不到的
 
 reception,接待,招待会
-receptacle,容器；插座；花托
+receptacle,容器,插座,花托
 receptive,善於接受的參,容易接受的,容納者,容器,類沙文主義是過分愛國的輕信的是過分易接受的
 
 susceptibility,易感性

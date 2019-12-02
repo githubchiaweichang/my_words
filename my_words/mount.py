@@ -9,7 +9,7 @@
 #来自par,通过,穿过
 paramount--0,至高無上的
 
-#sur-,在上,超过,-mount,山
+#sur,在上,超过,mount,山
 surmount--0,克服,超越
 
 #,来自拉丁语tantus,一样的,一致

@@ -1,4 +1,4 @@
-#matr-,母亲
+#matr,母亲
 #patri,父亲
 compatriot,同胞
 expatriate,侨民,外派

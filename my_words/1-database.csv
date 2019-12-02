@@ -3,7 +3,7 @@
 
 
 0--abate
-0--abdicate
+
 0--abhorrent
 0--abstemious
 0--accolade
@@ -204,13 +204,69 @@
 0--deify
 0--deleterious
 0--delinquent
-0--demean
-0--demeanor
-0--demography
-0--demoralize
-0--demotic
-0--demur
-0--demystify
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
+
+
+
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 0--denigrate
 0--dense
 0--deprecate
@@ -293,7 +349,21 @@
 0--encumber
 0--encyclopedia
 0--endeavor
-0--endemic
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 0--endorse
 0--endure
 0--enduring
@@ -1033,8 +1103,36 @@ abusively
 abut
 abysmal
 abyss
-academic
-academician
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 accelerate
 accentuate
 accompany
@@ -1484,7 +1582,7 @@ being
 belated
 bench
 bend
-benevolent--1
+benevolent1
 benign
 benignity
 benison
@@ -1859,7 +1957,7 @@ chide
 childish
 children
 chip
-chipmunk--1,花栗鼠
+chipmunk1,花栗鼠
 chisel
 choice
 choir
@@ -2249,7 +2347,7 @@ decorated
 decorating
 decrease
 decrepit
-dedicated
+
 dedication
 deed
 deep
@@ -2273,7 +2371,21 @@ delivered
 delta
 deluge
 delve
-demagogue
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 den
 denial
 denim
@@ -2666,7 +2778,7 @@ epithet
 equine
 equip
 equipment
-eradicate
+
 erase
 erasure
 erior
@@ -2880,7 +2992,7 @@ fern
 ferocious
 ferret
 ferrous
-fertile
+
 fervently
 fervid
 festive
@@ -3030,7 +3142,7 @@ fringe
 frisky
 frivolity
 fro
-fro-
+fro
 frolic
 frolic£ºæÒ‘òµÄ
 from
@@ -3586,8 +3698,8 @@ indefatigable
 indelible
 indent
 indenture
-indicate
-indicated
+
+
 indicating
 indication
 indicative
@@ -4099,7 +4211,7 @@ measurement
 medal
 meddlesome
 mediate
-medicated
+
 medication
 medicine
 mediocrity
@@ -4183,7 +4295,21 @@ misanthropic
 misbehaving
 misbehavior
 misdeed
-misdemeanor
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 mishap
 misinterpretation
 mislead
@@ -4505,7 +4631,21 @@ pamper
 pan
 panacea
 pancreas
-pandemic
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 pander
 panel
 pang
@@ -5053,7 +5193,21 @@ recuperate
 red
 reddish
 redeem
-redemptive
+academic, 學術的
+academician, 院士
+demagogue, 煽動者
+demean, 0, 舉止
+demeanor, 0, 風度
+
+
+demoralize, 0, 士氣低落
+demotic, 0, 惡魔般的
+demur, 0, 異端
+demystify, 0, 揭開神秘面紗
+
+misdemeanor, 輕罪
+
+redemptive, 救贖
 redolent
 redoubtable
 redundancy
@@ -6396,7 +6550,8 @@ viewpoint
 vile
 vilify
 vim
-vindicate
+eradicate
+medicate
 vintage
 vintner
 viral

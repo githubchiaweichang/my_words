@@ -4,12 +4,12 @@ splice,接合,撚接,疊接,使結婚接合,疊接,結婚
 
 apoplectic,氣的中風
 
-#-plect,編織
-#com-一起+-plex-重疊,編織
+#plect,編織
+#com一起plex重疊,編織
 #complex,合成物,復雜的
 #complexity,複雜性
 
-#per-完全,貫穿+-plex-重疊
+#per完全,貫穿plex重疊
 #編織→重重疊疊
 perplex,使困惑,使復雜化,使為難
 perplexity,困惑,混亂,困難

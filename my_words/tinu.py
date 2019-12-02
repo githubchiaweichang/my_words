@@ -1,4 +1,4 @@
-#con-,強調。-tin,持,握
+#con,強調,tin,持,握
 #continue,繼續,延續
 continuation,繼續,延續
 #continusing,連續的,持續的

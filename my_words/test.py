@@ -1,16 +1,16 @@
-#at(=ad,去)+test(證明)→證明
+#at(=ad,去)test(證明)→證明
 attest,証明,作証
 
-#con-,強調。-test,見證
-contest--0,動競爭,比賽；爭論
+#con,強調,test,見證
+contest--0,動競爭,比賽,爭論
 
-#de-,向下,強調。-test,見證
+#de,向下,強調,test,見證
 detest--0,憎惡,痛恨,嫌惡
 
-#pro-公開+-test-驗證
+#pro公開test驗證
 protest,主張,斷言,抗議,反對
 
-#test-,見證,證明
+#test,見證,證明
 testament,證據,證明
 
 intestate,未留遺囑的

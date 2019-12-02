@@ -1,17 +1,17 @@
-#缩写自amend,修理。来自拉丁语emendare
+#缩写自amend,修理,来自拉丁语emendare
 #mend,改進,改良,補丁
 
-#a,出来,+mend,错误,→从错误中出来→改过自新→修正
+#a,出来,mend,错误,→从错误中出来→改过自新→修正
 #amend--0,修正,改善,改良,改過自新
 #amendment,修正案,改正,修補,改善
 
-#com-共同+-mend-命令
+#com共同mend命令
 #commend,稱贊
 
-#re-再;回+com-共同+-mend-命令
+#re再;回com共同mend命令
 #recommend,推薦
 
-#e-,向外。-mend,错误,瑕疵
+#e,向外,mend,错误,瑕疵
 #emend--0,校訂,修改,字根,修補
 
 #来自拉丁语mendicare,乞讨,讨要,来自menda,缺陷,身体残疾
